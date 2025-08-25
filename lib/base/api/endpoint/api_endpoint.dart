@@ -1,7 +1,7 @@
 import 'package:dynamic_languages/dynamic_languages.dart';
 
 class ApiConfig {
-  static const String mainDomain = "PUT-YOUR-DOMAIN-HERE";
+  static const String mainDomain = "https://pay.gops.shop";
   static const String baseUrl = "$mainDomain/api";
   static const String languageUrl = "$baseUrl/settings/languages";
 }
