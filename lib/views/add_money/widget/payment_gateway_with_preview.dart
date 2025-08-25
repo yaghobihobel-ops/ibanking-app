@@ -1,3 +1,4 @@
+import 'package:ibanking/models/currency.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ibanking/views/add_money/controller/add_money_controller.dart';
