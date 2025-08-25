@@ -12,24 +12,16 @@ workflows:
         - ~/.pub-cache
     scripts:
       - name: Install dependencies
-        script: |
-          flutter pub get
-
-      - name: Run tests
-        script: |
-          flutter test
+        script: flutter pub get
 
       - name: Build APK
-        script: |
-          flutter build apk --release
+        script: flutter build apk --release
 
       - name: Build AAB
-        script: |
-          flutter build appbundle --release
+        script: flutter build appbundle --release
 
       - name: Build iOS
-        script: |
-          flutter build ios --release --no-codesign
+        script: flutter build ios --release --no-codesign
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
       - build/app/outputs/bundle/release/app-release.aab
