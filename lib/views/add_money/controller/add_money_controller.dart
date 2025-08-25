@@ -1,3 +1,5 @@
+import 'package:ibanking/models/add_money_gateway_model.dart';
+import 'package:ibanking/models/manual_input_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ibanking/views/add_money/widget/web_payment_screen.dart';
